@@ -1,9 +1,9 @@
 ---
-website:
+openstack-simple-stress:
   default_branch: master
-  description: Base content for scs.community
-  homepage: https://scs.community/
-  language: HTML
+  description: A tool to perform simple load tests on an OpenStack environment
+  homepage: ''
+  language: PYTHON
   archived: false
   has_issues: true
   has_projects: false
@@ -25,5 +25,7 @@ website:
     pull:
     push:
     admin:
-  topics: []
+  topics:
+    - python
+    - openstack-environment
   protection_rules: []

@@ -1,9 +1,9 @@
 ---
-website:
+contributor-guide:
   default_branch: master
-  description: Base content for scs.community
-  homepage: https://scs.community/
-  language: HTML
+  description: The Contributor Guide for the Sovereign Cloud Stack project
+  homepage: https://scs.community/docs/contributor/
+  language: PYTHON
   archived: false
   has_issues: true
   has_projects: false

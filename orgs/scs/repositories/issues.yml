@@ -1,9 +1,9 @@
 ---
-website:
-  default_branch: master
-  description: Base content for scs.community
-  homepage: https://scs.community/
-  language: HTML
+issues:
+  default_branch: main
+  description: This repository is used for issues that are cross-repository or not bound to a specific repository.
+  homepage: ''
+  language: MARKDOWN
   archived: false
   has_issues: true
   has_projects: false

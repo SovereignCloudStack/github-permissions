@@ -1,9 +1,9 @@
 ---
-website:
-  default_branch: master
-  description: Base content for scs.community
-  homepage: https://scs.community/
-  language: HTML
+Operational-Docs:
+  default_branch: main
+  description: Docs about how to best run SCS environments. Includes RCAs.
+  homepage: ''
+  language: PYTHON
   archived: false
   has_issues: true
   has_projects: false

@@ -1,9 +1,9 @@
 ---
-website:
-  default_branch: master
-  description: Base content for scs.community
-  homepage: https://scs.community/
-  language: HTML
+zuul_deployment:
+  default_branch: main
+  description: 'SCS Zuul-CI deployment'
+  homepage: 'http://zuul.scs.community:9000/'
+  language: IaC
   archived: false
   has_issues: true
   has_projects: false

@@ -1,9 +1,9 @@
 ---
-website:
+openstack-orphaned-resource-cleaner:
   default_branch: master
-  description: Base content for scs.community
-  homepage: https://scs.community/
-  language: HTML
+  description: With this script it is possible to easily list and cleanup orphaned resources on an OpenStack cloud environment
+  homepage: ''
+  language: PYTHON
   archived: false
   has_issues: true
   has_projects: false
@@ -25,5 +25,9 @@ website:
     pull:
     push:
     admin:
-  topics: []
+  topics:
+    - python
+    - openstack
+    - python3
+    - openstack-environment
   protection_rules: []

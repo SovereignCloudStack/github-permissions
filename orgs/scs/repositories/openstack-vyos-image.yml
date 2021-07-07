@@ -1,9 +1,9 @@
 ---
-website:
+openstack-vyos-image:
   default_branch: master
-  description: Base content for scs.community
-  homepage: https://scs.community/
-  language: HTML
+  description: VyOS on OpenStack
+  homepage: ''
+  language: JSON
   archived: false
   has_issues: true
   has_projects: false
@@ -25,5 +25,9 @@ website:
     pull:
     push:
     admin:
-  topics: []
+  topics:
+    - packer
+    - vyos
+    - openstack-environment
+    - openstack-glance
   protection_rules: []

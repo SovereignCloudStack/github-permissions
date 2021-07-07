@@ -1,9 +1,9 @@
 ---
-website:
-  default_branch: master
-  description: Base content for scs.community
-  homepage: https://scs.community/
-  language: HTML
+zuul-sandbox:
+  default_branch: main
+  description: Repo for testing the Zuul-CI
+  homepage: 'http://zuul.scs.community:9000'
+  language: YAML
   archived: false
   has_issues: true
   has_projects: false

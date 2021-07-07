@@ -1,9 +1,9 @@
 ---
-website:
+Design-Docs:
   default_branch: master
-  description: Base content for scs.community
-  homepage: https://scs.community/
-  language: HTML
+  description: Design Documents, Architecture etc. for SCS and related technology
+  homepage: ''
+  language: PYTHON
   archived: false
   has_issues: true
   has_projects: false

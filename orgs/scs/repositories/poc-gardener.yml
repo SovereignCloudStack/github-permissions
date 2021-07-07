@@ -1,9 +1,9 @@
 ---
-website:
+poc-gardener:
   default_branch: master
-  description: Base content for scs.community
-  homepage: https://scs.community/
-  language: HTML
+  description: Automatically set up SAP Gardener on SCS compliant IaaS
+  homepage: ''
+  language: HCL
   archived: false
   has_issues: true
   has_projects: false

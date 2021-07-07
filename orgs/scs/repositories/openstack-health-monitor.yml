@@ -1,9 +1,9 @@
 ---
-website:
+openstack-health-monitor:
   default_branch: master
-  description: Base content for scs.community
-  homepage: https://scs.community/
-  language: HTML
+  description: Script to monitor wheather an OpenStack cloud is working correctly
+  homepage: ''
+  language: SHELL
   archived: false
   has_issues: true
   has_projects: false
@@ -25,5 +25,8 @@ website:
     pull:
     push:
     admin:
-  topics: []
+  topics:
+    - bash
+    - openstack
+    - openstack-environment
   protection_rules: []

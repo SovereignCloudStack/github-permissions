@@ -1,9 +1,9 @@
 ---
-website:
+epics-and-stories:
   default_branch: master
-  description: Base content for scs.community
+  description: ''
   homepage: https://scs.community/
-  language: HTML
+  language: MARKDOWN
   archived: false
   has_issues: true
   has_projects: false

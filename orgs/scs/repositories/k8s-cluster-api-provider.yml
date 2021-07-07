@@ -1,9 +1,9 @@
 ---
-website:
+k8s-cluster-api-provider:
   default_branch: master
-  description: Base content for scs.community
-  homepage: https://scs.community/
-  language: HTML
+  description: Automation to use the OpenStack Kubernetes API Provider on SCS
+  homepage: ''
+  language: YAML
   archived: false
   has_issues: true
   has_projects: false

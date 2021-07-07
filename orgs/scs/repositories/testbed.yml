@@ -1,9 +1,9 @@
 ---
-website:
+testbed:
   default_branch: master
-  description: Base content for scs.community
-  homepage: https://scs.community/
-  language: HTML
+  description: This is just a fork. The current state of the core infrastructure is under osism/testbed. Please use this for tests etc.
+  homepage: https://docs.osism.tech/testbed
+  language: MARKDOWN
   archived: false
   has_issues: true
   has_projects: false

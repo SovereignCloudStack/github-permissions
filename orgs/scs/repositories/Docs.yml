@@ -1,9 +1,9 @@
 ---
-website:
-  default_branch: master
-  description: Base content for scs.community
-  homepage: https://scs.community/
-  language: HTML
+Docs:
+  default_branch: main
+  description: Entry point for SCS Docs
+  homepage: ''
+  language: MARKDOWN
   archived: false
   has_issues: true
   has_projects: false

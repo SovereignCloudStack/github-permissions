@@ -1,9 +1,9 @@
 ---
-website:
+generics:
   default_branch: master
-  description: Base content for scs.community
+  description: Central place for our CI scripts and unified templates like README files
   homepage: https://scs.community/
-  language: HTML
+  language: MARKDOWN
   archived: false
   has_issues: true
   has_projects: false
