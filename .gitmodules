@@ -1,3 +1,6 @@
 [submodule "gitstyring"]
 	path = gitstyring
 	url = https://github.com/opentelekomcloud-infra/gitstyring
+[submodule ".github/gitstyring"]
+	path = .github/gitstyring
+	url = https://github.com/opentelekomcloud-infra/gitstyring
