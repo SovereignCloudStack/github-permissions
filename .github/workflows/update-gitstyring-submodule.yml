@@ -26,12 +26,12 @@ jobs:
         with:
           EXECUTE_COMMANDS: |
             git submodule update --remote
-          COMMIT_EMAIL: 'bot@osism.io'
+          COMMIT_EMAIL: 'bot@scs.community'
           COMMIT_MESSAGE: |
-            chore: update gitstyring-submodule
+            chore: update gitstyring submodule
 
-            Signed-off-by: GitHub Actions <github+actions@scs.community>
-          COMMIT_NAME: 'GitHub Actions'
+            Signed-off-by: SCS Bot <bot@scs.community>
+          COMMIT_NAME: 'SCS Bot'
           ONLY_DEFAULT_BRANCH: true
           PR_BRANCH_NAME: 'update-gitstyring-submodule'
           PR_BRANCH_PREFIX: 'chore/'
