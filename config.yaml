@@ -66,7 +66,7 @@ labels:
   - name: release3
     description: "Issues or pull requests that are aimed for release 3"
     color: "51e898"
-  - name: action
+  - name: action required
     description: "Issues or pull requests that urgently require action"
     color: "dc143c"
   - name: regression
