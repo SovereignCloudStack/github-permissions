@@ -27,9 +27,6 @@ labels:
   - name: question
     description: "Further information is requested"
     color: "d876e3"
-  - name: SCS
-    description: "Sovereign Cloud Stack"
-    color: "96C68A"
   - name: support
     description: "Support request"
     color: "e99695"
@@ -42,18 +39,39 @@ labels:
   - name: upstream
     description: "Implemented directly in the upstream"
     color: "0052cc"
-  - name: infrastructure
-    description: "Is related to the internal infrastructure"
-    color: "2B3AA2"
   - name: housekeeping
-    description: "Das bisschen Haushalt..."
+    description: "Internal housekeeping"
     color: "d93f0b"
   - name: dependencies
     description: "Pull requests that update a dependency file"
     color: "0366d6"
   - name: security
-    description: "Has to do with security"
+    description: "Issues or pull requests that are security-relevant"
     color: "fc0000"
   - name: work in progress
     description: "Pull requests that are work in progress, do not merge them"
     color: "c5def5"
+  - name: IaaS
+    description: "Issues or pull requests relevant for Team1: IaaS"
+    color: "3d51e5"
+  - name: Container
+    description: "Issues or pull requests relevant for Team 2: Container Infra and Tooling"
+    color: "0dce67"
+  - name: Ops
+    description: "Issues or pull requests relevant for Team 3: Ops Tooling"
+    color: "f3de42"
+  - name: epic
+    description: "Issues that are spread across multiple sprints"
+    color: "6a5acd"
+  - name: release3
+    description: "Issues or pull requests that are aimed for release 3"
+    color: "51e898"
+  - name: action
+    description: "Issues or pull requests that urgently require action"
+    color: "dc143c"
+  - name: regression
+    description: "Issues or pull requests that address a regression"
+    color: "ffd700"
+  - name: longterm
+    description: "Issues or pull requests that relevent for longterm support"
+    color: "ff00ff"
