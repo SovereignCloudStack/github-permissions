@@ -1,0 +1,44 @@
+---
+name: Manage github repositories
+
+"on":
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  manage-github-repositories:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+
+      - name: Setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --use-feature=2020-resolver --upgrade pip
+          python3 -m pip install --use-feature=2020-resolver pipenv wheel
+          pipenv install
+
+      - name: Install ansible collection
+        run: |
+          ansible-galaxy collection install ansible-collection-gitcontrol
+
+      - name: Manage github repositories with Ansible
+        run: |
+          pipenv run ansible-playbook playbook.yaml -e github_token=$GITHUB_TOKEN
+        env:
+          GITHUB_TOKEN: ${{ secrets.GHP }}
+
+      - name: Manage github repositories with Python
+        run: |
+          pipenv run python3 manage.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GHP }}

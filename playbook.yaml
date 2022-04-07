@@ -5,17 +5,17 @@
     gitstyring_root_dir: .
 
   tasks:
-    - name: manage people
-      opentelekomcloud.gitcontrol.members:
-        root: "{{ gitstyring_root_dir }}"
-        token: "{{ github_token }}"
-      no_log: true
+   # - name: manage people
+   #   opentelekomcloud.gitcontrol.members:
+   #     root: "{{ gitstyring_root_dir }}"
+   #     token: "{{ github_token }}"
+   #   no_log: true
 
-    - name: manage teams
-      opentelekomcloud.gitcontrol.teams:
-        root: "{{ gitstyring_root_dir }}"
-        token: "{{ github_token }}"
-      no_log: true
+   # - name: manage teams
+   #   opentelekomcloud.gitcontrol.teams:
+   #     root: "{{ gitstyring_root_dir }}"
+   #     token: "{{ github_token }}"
+   #   no_log: true
 
     - name: manage repositories
       opentelekomcloud.gitcontrol.repositories:
